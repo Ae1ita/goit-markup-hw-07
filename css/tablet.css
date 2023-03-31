@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+.our-team-section {
+  padding-bottom: 104px;
+}
+.business-cards.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.cards-list {
+  width: calc((100% - 24px) / 2);
+}

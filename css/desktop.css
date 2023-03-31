@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.our-team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.business-cards.list {
+  flex-wrap: nowrap;
+}
+.cards-list {
+  width: calc((100% - 72px) / 4);
+}
