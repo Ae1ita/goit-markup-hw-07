@@ -2,6 +2,19 @@
   .container {
     max-width: 768px;
   }
+  /*Hero Section*/
+  .hero-section {
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    width: 496px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
   /*Feature*/
   .feature.list {
     flex-direction: row;
@@ -43,5 +56,43 @@
   }
   .customers-icon {
     width: 168px;
+  }
+  /* Footer */
+  .footer.container {
+    width: 552px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .footer-description {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .subscribe-form {
+    flex-direction: row;
+  }
+  .logo-footer {
+    justify-content: left;
+  }
+
+  .footer-form-input {
+    width: 264px;
+  }
+  .footer-header {
+    text-align: left;
+  }
+  .footer-social {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .subscribe {
+    width: 453px;
+    height: 80px;
+  }
+  .footer-form-input {
+    margin-bottom: 0;
+  }
+  .subscribe-button {
+    margin-left: 24px;
   }
 }
