@@ -2,6 +2,10 @@
   .container {
     max-width: 428px;
   }
+  /*Hero Section*/
+  .hero-title {
+    width: 320px;
+  }
   /*Feature*/
   .customers-description {
     width: 396px;
