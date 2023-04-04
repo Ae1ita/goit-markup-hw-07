@@ -2,6 +2,42 @@
   .container {
     max-width: 768px;
   }
+  /*Header*/
+  .site-nav.list {
+    flex-direction: row;
+    row-gap: 0;
+    margin-left: 76px;
+  }
+  .site-nav .item + .item {
+    margin-left: 40px;
+  }
+  .second-nav {
+    flex-direction: row;
+    align-items: center;
+  }
+  .contacts.list {
+    flex-direction: row;
+    align-items: center;
+  }
+  .contacts.list .item + .item {
+    margin-left: 40px;
+  }
+  .mailto.link {
+    font-size: 16px;
+    line-height: 1.5px;
+  }
+  .tel {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.5px;
+    text-transform: none;
+
+    transition: color var(--transition-dur-and-func);
+  }
+  .tel:hover,
+  .tel:focus {
+    color: var(--accent-color);
+  }
   /*Hero Section*/
   .hero-section {
     padding-bottom: 108px;
