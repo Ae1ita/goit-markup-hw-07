@@ -6,6 +6,41 @@
   }
   /*Header*/
 
+  .page-header-container {
+    align-items: center;
+  }
+
+  .main-menu {
+    padding-bottom: 28px;
+  }
+  .site-nav.list {
+    margin-left: 76px;
+  }
+  .site-nav.link.current {
+    position: relative;
+    padding-bottom: 28px;
+  }
+  .second-nav {
+    flex-direction: row;
+    align-items: center;
+  }
+  .contacts.list {
+    flex-direction: row;
+    align-items: center;
+    row-gap: 0;
+  }
+  .contacts.list .item + .item {
+    margin-left: 40px;
+  }
+  .mailto.link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .tel {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
   /*Hero Section*/
 
   .hero-section {
