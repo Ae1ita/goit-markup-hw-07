@@ -87,6 +87,9 @@
   .tel:focus {
     color: var(--accent-color);
   }
+  .header-social.list {
+    display: none;
+  }
   /*Hero Section*/
   .hero-section {
     padding-bottom: 108px;
@@ -198,5 +201,12 @@
   }
   .subscribe-button {
     margin-left: 24px;
+  }
+  /*Modal window*/
+  .modal {
+    width: 408px;
+    height: 586px;
+    padding-left: 23px;
+    padding-right: 25px;
   }
 }

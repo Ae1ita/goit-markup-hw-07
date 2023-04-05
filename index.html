@@ -28,9 +28,16 @@
         <a href="./index.html" class="logo"
           ><span class="logo-accent">Web</span>Studio</a
         >
-        <button type="button" class="header-btn-mobile">+</button>
-        <div class="header-nav-wrap">
-          <button type="button" class="header-btn-mobile-close">
+        <button
+          type="button"
+          class="header-btn-mobile js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          +
+        </button>
+        <div class="header-nav-wrap js-menu-container" id="mobile-menu">
+          <button type="button" class="header-btn-mobile-close js-close-menu">
             <svg class="header-btn-mobile-icon">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
@@ -60,6 +67,36 @@
               </li>
             </ul>
           </address>
+          <ul class="header-social list">
+            <li class="team-social-item">
+              <a href="" class="team-social link">
+                <svg class="team-social-icon" width="16">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social-item">
+              <a href="" class="team-social link">
+                <svg class="team-social-icon" width="16">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social-item">
+              <a href="" class="team-social link">
+                <svg class="team-social-icon" width="16">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social-item">
+              <a href="" class="team-social link">
+                <svg class="team-social-icon" width="16">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -74,7 +111,7 @@
         </div>
       </section>
       <!--Feature-->
-      <!--<section class="feature-section">
+      <section class="feature-section">
         <div class="container">
           <h2 class="visually-hidden">Feature</h2>
           <ul class="feature list">
@@ -131,7 +168,7 @@
       </section>
       <!--/Feature-->
       <!--What are we doing-->
-      <!-- <section class="we-doing" class="visually-hidden">
+      <section class="we-doing" class="visually-hidden">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="img list">
@@ -167,7 +204,7 @@
       </section>
       <!--/What are we doing-->
       <!--Our Team-->
-      <!--<section class="our-team-section">
+      <section class="our-team-section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="business-cards list">
@@ -371,7 +408,7 @@
         </div>
       </section>
       <!--Customers-->
-      <!--<section class="customers-contact">
+      <section class="customers-contact">
         <div class="customers container">
           <div class="customers-description">
             <h2 class="section-title">Customers</h2>
@@ -425,7 +462,7 @@
       <!--/Our Team-->
     </main>
     <!--Footer-->
-    <!--<footer class="footer">
+    <footer class="footer">
       <div class="footer container">
         <div class="footer-description">
           <a href="./index.html" class="logo-footer"
@@ -491,7 +528,7 @@
       </div>
     </footer>
     <!--Modal bg-->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-icon">
@@ -573,8 +610,15 @@
           <button type="submit" class="button primary send">Send</button>
         </form>
       </div>
-    </div>-->
+    </div>
     <!-- Javascript -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -2,6 +2,16 @@
   .container {
     max-width: 428px;
   }
+  /*Header*/
+  .tel {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+  .header-social.list {
+    column-gap: 56px;
+  }
+
   /*Hero Section*/
   .hero-title {
     width: 320px;
@@ -15,5 +25,14 @@
   }
   .customers-icon {
     width: 190px;
+  }
+  /*Modal window*/
+  .modal {
+    width: 392px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .form-label-checkbox {
+    flex-wrap: nowrap;
   }
 }
