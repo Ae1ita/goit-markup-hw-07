@@ -24,6 +24,8 @@
     position: static;
     padding: 0;
     box-shadow: none;
+    opacity: 1;
+    pointer-events: all;
   }
   .header-btn-mobile-close {
     display: none;
