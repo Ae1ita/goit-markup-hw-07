@@ -96,16 +96,22 @@ p {
 }
 
 .header-btn-mobile {
-  display: block;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+}
+.hmobile-burger-icon {
   width: 32px;
   height: 22px;
-  margin-left: auto;
+  fill: currentColor;
+  transition: fill var(--transition-dur-and-func);
 }
 
 .header-btn-mobile-close {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 24px;
+  right: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
